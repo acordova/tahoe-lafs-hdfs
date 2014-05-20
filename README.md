@@ -12,7 +12,7 @@ Building
 This code can be built using maven via:
 
   
-  mvn package
+	mvn package
   
 
 Configuration
