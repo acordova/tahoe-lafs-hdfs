@@ -19,10 +19,10 @@ Configuration
 -------------
 The only modifications required to applications designed for HDFS include placing the resulting JAR file into the Java classpath and using the following settings in core-site.xml
 
-  <property>
-    <name>fs.defaultFS</name>
-    <value>lafs://localhost:3456</value>
-  </property> 
+	<property>
+		<name>fs.defaultFS</name>
+		<value>lafs://localhost:3456</value>
+	</property> 
   
 	<property>
 		<name>fs.lafs.impl</name>
